@@ -46,6 +46,25 @@ library
                      , WebUI.Widgets.Extensions.MapOSMExtension
                      , WebUI.Widgets.Extensions.JQueryExtension
 
+                     , LibDemo
+
+--  default-extensions:  DataKinds
+--                       DeriveDataTypeable
+--                       DeriveGeneric
+--                       CPP
+--                       MultiParamTypeClasses
+--                       FlexibleInstances
+--                       TemplateHaskell
+--                       TypeOperators
+--                       TypeFamilies
+--                       QuasiQuotes
+--                       OverloadedStrings
+--                       FlexibleContexts
+--                       GADTs
+--                       RankNTypes
+--                       FunctionalDependencies
+--                       GeneralizedNewtypeDeriving
+--                       UndecidableInstances
   default-extensions:  DataKinds
                        DeriveDataTypeable
                        DeriveGeneric

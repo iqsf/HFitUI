@@ -5,13 +5,14 @@
 module Main where
 
 -- Импорт модулей
-import           WebUI.HFitUI
+import           LibDemo
 
 
 
 -- | Точка входа в программу
 main :: IO ()
-main = return ()
+--main = return ()
+main = testDemo
 
 
 
