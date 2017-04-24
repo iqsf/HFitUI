@@ -17,7 +17,7 @@ import           WebUI.Scripts.JavaScript.HJavaScript
 import           WebUI.Themes.SolarizedUITheme
 
 
-
+-- | Demo test
 testDemo :: IO ()
 testDemo = do
     res <- testOne
