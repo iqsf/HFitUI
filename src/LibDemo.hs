@@ -41,7 +41,7 @@ testOne =
                                         var_b <- newVarInt "b" 10 
                                         var_c <- newVarInt "c" 5
                                         var_cm <- newVar "cm" $ mathACos var_c
-                                        (//) "Тестовая переменная"
+                                        (//) "Test variable"
                                         var_testPer <- newVar "testPer" HJsEmpty
                                         var_st <- newVarStr "st" "TestSt"
                                         flag_1 <- newVarBool "flag_1" True
@@ -58,8 +58,8 @@ testOne =
                                             }
                                         |]
 
-                                        (***) $ "Первый многострочный комментарий" +-+ 
-                                                "перед функцией myFunc"
+                                        (***) $ "The first multi-line comment" +-+ 
+                                                "before the myFunc function"
                                         vatFn_myFunc <- functJS "myFunc" [] $ do 
                                             return endH
                                         call vatFn_myFunc []
