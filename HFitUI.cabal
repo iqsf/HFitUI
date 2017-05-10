@@ -116,4 +116,4 @@ test-suite HFitUI-test
 
 source-repository head
   type:     git
-  location: https://github.com/githubuser/HFitUI
+  location: https://github.com/iqsf/HFitUI

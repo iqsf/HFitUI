@@ -7,7 +7,7 @@ Library for generating a graphical interface on the web for the Haskell programm
 The **HFitUI** uses the blaze library as the result of generating a graphical interface on the web. Using the HFitUI, you construct an interface from the panels, buttons, more complex widget components.The HFitUI has its own Javascript generator from Haskell code based on a set of JavaScript simulation functions.
 Below is an example code:
 
-'''
+```
 testOne :: UI H.Html
 testOne = 
     widgetLayoutUI $ do 
@@ -61,11 +61,11 @@ testOne =
                         , scriptsOutside
                         , jsScript
                         ]
-'''
+```
 
 This code generates the following HTML:
 
-'''
+```
 <!DOCTYPE HTML>
 <html><head><title>TestGL (Dyn)</title></head><body id="f98b3765-f949-44ed-b653-7234e250f08e" ui_widget="shell" style=""><div id="42826f90-aa08-4008-b3a7-3c27e62b5d2d" ui_widget="panel" style="top:44px;right:0px;bottom:0px;left:0px;overflow-x: hidden;overflow-y: auto;" class=""></div><script type="text/javascript" id="87a1f750-123a-4148-bcb5-a53f40e23a52" ui_widget="script_text" style="" class="">
 /*Generate by HScript from the HFitUI library*/
@@ -104,7 +104,7 @@ res_new_testFunc = new testFunc(5, b, "qwe", 19, true);
 
 ;
 </script></body></html>
-'''
+```
 
 
 
