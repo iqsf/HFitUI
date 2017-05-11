@@ -1,13 +1,11 @@
 # HFitUI
 
-##Introduction
-
+## Introduction
 Library for generating a graphical interface on the web for the Haskell programming language.
 
-##Short description
-
+## Short description
 The **HFitUI** uses the blaze library as the result of generating a graphical interface on the web. Using the HFitUI, you construct an interface from the panels, buttons, more complex widget components.The HFitUI has its own Javascript generator from Haskell code based on a set of JavaScript simulation functions.
-Below is an example code:
+Below is an example [demo](https://github.com/iqsf/HFitUI/blob/master/src/WebUI/Demo/LibDemo.hs) code:
 
 ```
 testOne :: UI H.Html
