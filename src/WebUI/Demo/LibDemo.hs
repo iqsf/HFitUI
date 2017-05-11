@@ -2,7 +2,7 @@
 -- Module for demonstrating the work of the library
 ----------------------------------------------------------------
 
-module LibDemo 
+module WebUI.Demo.LibDemo 
     ( testDemo
     ) where
 

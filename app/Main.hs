@@ -5,7 +5,7 @@
 module Main where
 
 -- Импорт модулей
-import           LibDemo
+import           WebUI.Demo.LibDemo
 
 
 

@@ -46,7 +46,7 @@ library
                      , WebUI.Widgets.Extensions.MapOSMExtension
                      , WebUI.Widgets.Extensions.JQueryExtension
 
-                     , LibDemo
+                     , WebUI.Demo.LibDemo
 
 --  default-extensions:  DataKinds
 --                       DeriveDataTypeable
