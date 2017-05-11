@@ -1,6 +1,6 @@
 name:                HFitUI
 version:             0.1.0.0
--- synopsis:
+synopsis:            The library for generating a graphical interface on the web for the Haskell programming language
 -- description:
 homepage:            https://github.com/iqsf/HFitUI.git
 license:             BSD3
@@ -48,23 +48,6 @@ library
 
                      , WebUI.Demo.LibDemo
 
---  default-extensions:  DataKinds
---                       DeriveDataTypeable
---                       DeriveGeneric
---                       CPP
---                       MultiParamTypeClasses
---                       FlexibleInstances
---                       TemplateHaskell
---                       TypeOperators
---                       TypeFamilies
---                       QuasiQuotes
---                       OverloadedStrings
---                       FlexibleContexts
---                       GADTs
---                       RankNTypes
---                       FunctionalDependencies
---                       GeneralizedNewtypeDeriving
---                       UndecidableInstances
   default-extensions:  DataKinds
                        DeriveDataTypeable
                        DeriveGeneric
