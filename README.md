@@ -106,6 +106,7 @@ res_new_testFunc = new testFunc(5, b, "qwe", 19, true);
 </script></body></html>
 ```
 
+The library **HFitUI** represents a simple yet powerful tool for creating graphical interface on the Web
 
 
 
