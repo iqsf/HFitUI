@@ -1,5 +1,5 @@
 name:                HFitUI
-version:             0.1.0.0
+version:             0.1.1.0
 synopsis:            The library for generating a graphical interface on the web
 description:         The library for generating a graphical interface on the web for the Haskell programming language.
 homepage:            https://github.com/iqsf/HFitUI.git
@@ -12,6 +12,8 @@ category:            Web
 build-type:          Simple
 extra-source-files:  README.md
 cabal-version:       >=1.10
+
+data-files: templates/test/TestScript.julius 
 
 library
   hs-source-dirs:      src
